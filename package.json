@@ -18,6 +18,8 @@
   "author": "Brent Jackson",
   "license": "MIT",
   "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
     "understyle": "^1.2.0"
   },
   "devDependencies": {
@@ -32,6 +34,7 @@
     "react": "^15.2.1",
     "react-addons-test-utils": "^15.2.1",
     "react-dom": "^15.2.1",
+    "react-test-renderer": "^15.5.4",
     "standard": "^7.1.2",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"

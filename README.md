@@ -106,6 +106,9 @@ prop | type | description
 The space scale and number of grid columns can be configured through React context.
 
 ```js
+import PropTypes from 'prop-types'
+import React from 'react'
+
 // Example context configuration
 class App extends React.Component {
   getChildContext () {
@@ -119,7 +122,7 @@ class App extends React.Component {
 }
 
 App.contextTypes = {
-  robox: React.PropTypes.object
+  robox: PropTypes.object
 }
 ```
 
